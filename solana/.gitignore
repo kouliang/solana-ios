@@ -1,0 +1,41 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcworkspace/contents.xcworkspacedata
+
+# Build artifacts
+build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+
+# CocoaPods
+Pods/
+podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# User-specific files
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# Other
+*.hmap
+*.hmap/
+*.lock
+*.tmp
+*.bak
